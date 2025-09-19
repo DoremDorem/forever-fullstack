@@ -71,6 +71,7 @@ const Navbar = () => {
             <NavLink onClick={()=>setVisibal(false)} className="py-2 pl-6 border" to="/collection">COLLECTION</NavLink>
             <NavLink onClick={()=>setVisibal(false)} className="py-2 pl-6 border" to="/about">ABOUT</NavLink>
             <NavLink onClick={()=>setVisibal(false)} className="py-2 pl-6 border" to="/contact">CONTACT</NavLink>
+            <NavLink onClick={()=>setVisibal(false)} to="https://forever-admin-seven-phi.vercel.app/" className="py-2 pl-6 border">ADMIN LOGIN</NavLink>
           </div>
       </div>
     </div>
